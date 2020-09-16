@@ -4,10 +4,10 @@ namespace MarsRover
 {
     public class Plateau
     {
-        private readonly int LowerBoundX;
-        private readonly int LowerBoundY;
-        private readonly int UpperBoundX;
-        private readonly int UpperBoundY;
+        public readonly int LowerBoundX;
+        public readonly int LowerBoundY;
+        public readonly int UpperBoundX;
+        public readonly int UpperBoundY;
 
         public Plateau(int x, int y)
         {

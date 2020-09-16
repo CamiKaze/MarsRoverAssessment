@@ -8,7 +8,7 @@ namespace MarsRover
     {
         private readonly Plateau Plateau;
         private List<Rover> Rovers;
-        private List<Coordinate> FinalPositions;
+        public List<Coordinate> FinalPositions;
         private List<string> InputManoeuvres;
 
         public RoverManager(Plateau plateau, List<string> inputPositions, List<string> inputManoeuvres)
