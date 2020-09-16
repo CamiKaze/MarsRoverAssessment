@@ -25,7 +25,7 @@ namespace MarsRover.Test
         }
 
         [Fact]
-        public void PlaceRover()
+        public void NavigateRover()
         {
             // Arrange
             Plateau plateau = new Plateau(0, 0, 5, 5);
